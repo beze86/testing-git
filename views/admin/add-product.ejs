@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Add product</h1>
+    <form action="/admin/add-product" method="POST">
+        <div class="">
+            <label for="">Name</label>
+            <br>
+            <input type="text" name="productName">
+        </div>
+        <div class="">
+            <label for="">Price</label>
+            <br>
+            <input type="number" name="productPrice">
+        </div>
+        <div class="">
+            <label for="">Description</label>
+            <br>
+            <textarea name="productDescription" cols="50%" rows="3"></textarea>
+        </div>
+        <button type="submit">Add product</button>
+    </form>
+</body>
+</html>
